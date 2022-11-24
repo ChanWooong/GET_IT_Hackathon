@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.login {
+  width: 40%;
+  height: 600px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  position: center;
+}
+h2 {
+  color: #4396c5;
+  font-size: 3em;
+}
+
+.login_id {
+  margin-top: 20px;
+  width: 80%;
+  opacity: 1;
+}
+
+.login_id input {
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+.login_pw {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.login_pw input {
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+.login_etc {
+  padding: 10px;
+  width: 80%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.submit {
+  margin-top: 50px;
+  width: 80%;
+}
+.submit button {
+  /*width: 100%;*/
+  /*height: 60px;*/
+  /*border: 1px solid #9e9e9e;*/
+  /*outline: none;*/
+  /*border-radius: 90px;*/
+  /*background: linear-gradient(270deg, #609fcd 0%, #ffffff 100%);*/
+  /*color: white;*/
+  /*font-size: 1.3em;*/
+  /*letter-spacing: 5px;*/
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+  /*position: absolute;*/
+  width: 100%;
+  height: 60px;
+  left: 1210px;
+  top: 550px;
+  font-size: 1.3em;
+  background: linear-gradient(270deg, #609fcd 0%, #ffffff 100%);
+  border: 1px solid #9e9e9e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+  transform: rotate(0deg);
+  margin-bottom: 10px;
+  opacity: 100%;
+}
+
+/* .login_sns */
+.login_sns {
+  margin-top: 10px;
+  /*width: 80%;*/
+  align-items: center;
+}
+.login_sns button {
+  box-sizing: border-box;
+
+  /*position: absolute;*/
+  width: 300px;
+  height: 50px;
+  left: 810px;
+  top: 711px;
+
+  background: #fae301;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+}
+#login_logo {
+  place-items: center;
+  justify-items: center;
+
+  width: 40%;
+  height: auto;
+}
+#google_login {
+  background: #ececec;
+  font-size: 17px;
+
+  /*background-image: url("https://github.com/ChanWooong/GET_IT_Hackathon/blob/main/image/googleLogo.png?raw=true");*/
+}
+#google_logo {
+  /*margin-left: 10px;*/
+  /*padding-right: 10px;*/
+  /*padding-left: 10px;*/
+  margin-left: 60px;
+  margin-right: -30px;
+  object-fit: scale-down;
+  width: 30px;
+  float: left;
+}
+#kakao_login {
+  /*background: #ececec;*/
+  font-size: 17px;
+  /*background-image: url("https://github.com/ChanWooong/GET_IT_Hackathon/blob/main/image/googleLogo.png?raw=true");*/
+}
+#kakao_logo {
+  /*margin-left: 10px;*/
+  /*padding-right: 10px;*/
+  /*padding-left: 10px;*/
+  margin-top: 1px;
+  margin-left: 60px;
+  margin-right: -30px;
+  object-fit: scale-down;
+  width: 30px;
+  float: left;
+}
