@@ -15,10 +15,7 @@ def page_not_found(error):
 @app.route('/main_page') #메인페이지
 def main_page():
     return render_template('main_page.html')
-@app.route('/signup')
-def signup(): #사용자추가
-    return render_template('signup.html')
-@app.route('/login') #로그인 대여 , 반납
+@app.route('/login') #로그인
 def login():
     return render_template('login.html')
 @app.route('/intro') #회사 소개
@@ -27,14 +24,12 @@ def intro():
 @app.route('/companyList') 
 def companyList():
     return render_template('companyList.html')
-@app.route('/log') #
-def log():
-    return render_template('log.html')
-
-@app.route('/idcheck')
-def idcheck():
-    return render_template('idcheck.html')
-#시발
+@app.route('/comapply') 
+def comapply():
+    return render_template('comapply.html')
+@app.route('/complain') 
+def complain():
+    return render_template('complain.html')
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000 , debug=True)
     
