@@ -25,7 +25,7 @@
   .v13_587 {
     width: 590px;
     height: 500px;
-    background: url("./image/baeMin.jpg");
+    background: url("../image/배달의민족.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -242,6 +242,10 @@
     opacity: 1;
     text-align: left;
   }
+
+
+
+
   
   .v251_3 {
       width: 100%;
@@ -405,6 +409,15 @@
       opacity: 1;
       text-align: center;
       
+
+
+
+
+
+
+
+
+
     }
     .v251_31 {
       width: 100%;

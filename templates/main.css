@@ -126,6 +126,8 @@ label.right{
 	100% {left:0%;}
 }
 
+
+
   * {
     box-sizing: border-box;
   }
@@ -270,12 +272,153 @@ label.right{
     left: 52px;
     overflow: hidden;
   }
+
+ 
+  
+  .v251_3 {
+    width: 100%;
+    height: 1024px;
+    background: rgba(16, 5, 78, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v258_40 {
+    width: 100%;
+    height: 800px;
+    background: url('../images/v258_40.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v251_7 {
+    width: 100%;
+    height: 65px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    border: 4px solid yellow ;
+  }
+  .name {
+    color: #fff;
+  }
+  .v251_116 {
+    width: 45px;
+    height: 35px;
+    background: url("https://github.com/ChanWooong/GET_IT_Hackathon/blob/main/image/search.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    left: 1345px;
+    overflow: hidden;
+  }
+  .v251_4 {
+    width: 140px;
+    color: rgba(16, 5, 77, 1);
+    position: absolute;
+    top: 9px;
+    left: 108px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lexend;
+    font-weight: 1000;
+    font-size: 45px;
+    opacity: 1;
+    text-align: left;
+    font-weight: bold;
+  }
+  .v251_11 {
+    width: 220px;
+    color: rgba(0, 0, 92, 1);
+    position: absolute;
+    top: 2px;
+    left: 300px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-weight: Black;
+    font-size: 26px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v251_18 {
+    width: 220px;
+    color: rgba(0, 0, 92, 1);
+    position: absolute;
+    top: 2px;
+    left: 550px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-weight: 900;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+    margin-top: 17px;
+  }
+  .v251_19 {
+    width: 220px;
+    color: rgba(0, 0, 92, 1);
+    position: absolute;
+    top: 2px;
+    left: 800px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-weight: Black;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v251_20 {
+    width: 220px;
+    color: rgba(0, 0, 92, 1);
+    position: absolute;
+    top: 2px;
+    left: 1000px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-weight: Black;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v251_16 {
+    width: 16px;
+    height: 80px;
+    background: rgba(0, 0, 92, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 33px;
+    overflow: hidden;
+  }
+  .v251_17 {
+    width: 5px;
+    height: 80px;
+    background: rgba(0, 0, 92, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    overflow: hidden;
+  }
   .v251_22 {
     width: 100px;
     color: rgba(255, 255, 255, 1);
     position: absolute;
     top: 2%;
-    left: 89%;
+    left: 1400px;
     font-family: Noto Sans KR;
     font-weight: Black;
     font-size: 14px;
@@ -287,14 +430,16 @@ label.right{
     color: rgba(255, 255, 255, 1);
     position: absolute;
     top: 2%;
-    left: 83%;
+    left:1325px;
     font-family: Noto Sans KR;
     font-weight: Black;
     font-size: 14px;
     opacity: 1;
     text-align: center;
-    
   }
+
+
+
   .v251_31 {
     width: 100%;
     height: 853px;
