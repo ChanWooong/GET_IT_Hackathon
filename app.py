@@ -3,12 +3,12 @@ from dis import code_info
 import importlib
 import random
 import time
-import re
+import re   
 from flask import Flask, request,render_template
 app = Flask(__name__)
 @app.route('/')
 def hello():
-    return 'Hello, World!'
+    return render_template('main_page.html')
 @app.errorhandler(404)
 def page_not_found(error):
     return "페이지가 없습니다. URL를 확인 하세요", 404
@@ -27,6 +27,18 @@ def intro():
 @app.route('/companyList') 
 def companyList():
     return render_template('companyList.html')
+@app.route('/complain') 
+def complain():
+    return render_template('complain.html')
+@app.route('/comapply') 
+def comapply():
+    return render_template('main_page.html')
+@app.route('/check') 
+def check():
+    return render_template('check.html')
+@app.route('/apply') 
+def apply():
+    return render_template('apply.html')
 @app.route('/log') #
 def log():
     return render_template('log.html')
