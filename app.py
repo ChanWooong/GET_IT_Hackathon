@@ -14,7 +14,7 @@ def page_not_found(error):
     return "페이지가 없습니다. URL를 확인 하세요", 404
 @app.route('/main_page') #메인페이지
 def main_page():
-    return render_template('main_page.html')
+    return render_template('main.html')
 @app.route('/signup')
 def signup(): #사용자추가
     return render_template('signup.html')
@@ -30,7 +30,9 @@ def companyList():
 @app.route('/log') #
 def log():
     return render_template('log.html')
-
+@app.route('/comapply') 
+def comapply():
+    return render_template('comapply.html')
 @app.route('/idcheck')
 def idcheck():
     return render_template('idcheck.html')
